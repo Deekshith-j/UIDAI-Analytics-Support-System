@@ -1,0 +1,14 @@
+# Ignore raw data folders
+api_data_aadhar_biometric/
+api_data_aadhar_demographic/
+api_data_aadhar_enrolment/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore large reports if any (optional)
+# reports/
+
+# Ensure processed data is KEQT (unless too large, but parquet is compressed)
+!data/processed/
